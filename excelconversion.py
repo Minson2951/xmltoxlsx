@@ -8,6 +8,7 @@ xml_file_path = "employee_data.xml"
 try:
     tree = ET.parse(xml_file_path)
     root = tree.getroot()
+    print("Reading given xml file", xml_file_path)
 except ET.ParseError as e:
     print(f"Error parsing XML file: {e}")
     exit(1)

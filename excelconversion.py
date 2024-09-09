@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 from openpyxl import Workbook
 from openpyxl.styles import PatternFill
 
-xml_file_path = r"E:\Python_test\employee_data.xml"
+xml_file_path = "employee_data.xml"
 
 # Parse the XML file
 try:
